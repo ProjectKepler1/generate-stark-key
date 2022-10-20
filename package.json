@@ -1,0 +1,17 @@
+{
+  "name": "generate-stark-key",
+  "version": "1.0.0",
+  "description": "This tool generates the deterministic stark key for a given private key",
+  "scripts": {
+    "get-key": "node get-key",
+    "get-key-from-sig": "node get-key-from-sig"
+  },
+  "author": "ImmutableX",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@ethersproject/wallet": "^5.7.0",
+    "@imtbl/core-sdk": "0.7.0",
+    "dotenv": "^16.0.3"
+  }
+}
